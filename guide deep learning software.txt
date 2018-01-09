@@ -1,0 +1,16 @@
+conda create --name dp python=3.5
+activate dp
+conda install -c conda-forge keras
+conda install -c conda-forge tensorflow
+conda install -c anaconda ipython
+conda install ipykernel (in that env)
+conda install jupyter
+set KERAS_BACKEND=tensorflow
+set "KERAS_BACKEND=tensorflow"
+
+conda create -n tensorflow python=3.5 
+activate tensorflow
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.2.1-cp35-cp35m-win_amd64.whl
+
+conda install nb_conda
+conda install ipykernel
